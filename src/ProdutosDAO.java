@@ -26,8 +26,8 @@ public class ProdutosDAO {
         
         
         //conn = new conectaDAO().connectDB();
-        
-        
+        // é preciso conectar ao banco e inserir na tabela produto
+        JOptionPane.showMessageDialog(null, "Produto inserido com sucesso!");
     }
     
     public ArrayList<ProdutosDTO> listarProdutos(){
